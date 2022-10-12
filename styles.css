@@ -1,0 +1,78 @@
+<head>
+        <style type="text/css">
+            {
+                padding: 0%;
+                margin: 0%;
+            }
+    
+            header {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 20%;
+                background-color: gray;
+                color: white;
+                font-family: Arial;
+                font-size: 85%;
+            }
+    
+            section {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 20vh;
+            }
+
+            form {
+                font-family: Arial;
+            }
+
+            form div {
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 30px;
+            }
+
+            form input, form textarea{
+                outline: unset;
+                padding: 20px;
+                min-width: 300px;
+                border: 1px solid;
+                border-radius: 20px;
+            }
+
+            form input:focus, form textarea:focus {
+                background-color: aquamarine;
+            }
+            
+            form input[type-submit] {
+                background-color: cornflowerblue;
+                color: white;
+                cursor: pointer;
+            }
+
+            form label {
+                margin-left: 10px;
+            }
+
+            .inputbox {
+                position: relative;
+            }
+
+
+
+            body {
+                background-color: gray;
+            }
+    
+          p{
+            color: white;
+          }  
+    
+        </style>
+    </head>
+
+
+    <body>
+        
+    </body>    
